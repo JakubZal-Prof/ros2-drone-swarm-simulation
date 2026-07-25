@@ -28,5 +28,8 @@ ament_target_dependencies(offboard_control rclcpp px4_msgs)
 install(TARGETS
   offboard_control
   DESTINATION lib/${PROJECT_NAME})
-
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
 ament_package()
