@@ -5,7 +5,7 @@ from rosbag2_py import SequentialReader, StorageOptions, ConverterOptions
 from rclpy.serialization import deserialize_message
 from px4_msgs.msg import VehicleLocalPosition
 
-BAG_PATH = "formation_full_mission"
+BAG_PATH = "formamation_full_mission1"
 
 def read_positions(bag_path, topic_name):
     storage_options = StorageOptions(uri=bag_path, storage_id='sqlite3')

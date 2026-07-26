@@ -62,7 +62,7 @@ Uruchamia Gazebo, most PX4↔ROS2, obie instancje PX4 SITL oraz węzły sterują
 
 Po nagraniu lotu (`ros2 bag record`), skrypt `analysis/plot_formation.py` generuje wykres trajektorii obu dronów na tle przeszkód i stref lądowania, wraz z wykresem utrzymania formacji w czasie.
 
-![formation analysis](formation_analysis.png)
+![formation analysis](src/swarm_control/analysis/formation_analysis.png)
 
 ## Napotkane wyzwania techniczne
 
